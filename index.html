@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Python Tech Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!--Links-->
+	<link rel="stylesheet" href="styleSheet.css">
+	<link rel="stylesheet" href="script.js">
+
+</head>
+
+<body>
+	<!--NavBar-->
+	<nav id="navbar">
+		<header class="firstHeader">The very brief, very basic,<br>
+			Introduction to Python</header>
+		<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FaldZVwNCJ4O4A-erlXPpzpY_-iY%3D%2F0x0%3A1280x720%2F1200x800%2Ffilters%3Afocal(558x144%3A762x348)%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_image%2Fimage%2F62606976%2F46808a50f9bb87e9e136b738a2a7c27a60f024b7.0.jpg&f=1&nofb=1"
+			alt="">
+		<ul>
+			<li>
+				<a class="nav-link" href="#Introduction's_Introduction">Introduction's Introduction</a>
+			</li>
+			<li>
+				<a class="nav-link" href="#Variables">Variables</a>
+			</li>
+			<li>
+				<a class="nav-link" a href="#Strings">Strings</a>
+			</li>
+			<li>
+				<a class="nav-link" href="#Numeric_Manipulation">Numeric Manipulation</a>
+			</li>
+			<li>
+				<a class="nav-link" href="#String_Manipulation">String Manipulation</a>
+			</li>
+		</ul>
+	</nav>
+	<!--/NavBar-->
+
+	<!--document-->
+	<main id="main-doc">
+		<section id="Introduction's_Introduction" class="main-section">
+			<header class="secondHeaders">Introduction's Introduction</header>
+			<article>
+				<p>My readers, maybe you're wondering about the origin of the programming language's name, Python. While
+					many assume this is in reference to the snake, a python, it's actually inspired by the British
+					comedy group, Monty Python.
+					This is hard to believe since there is nothing comedic about programming languages. In fact, it may
+					be said that it has more in common with snakes. For instance, snakes are adaptable and flexible just
+					like the programming language, Python.
+					Unless, of course, its creator's had in mind a comedy of errors, of which Python has plenty in
+					store.
+				</p>
+				<header>Hellooo Werld!</header>
+				<p>For our first excercise, we will grant computers humanity by having them spit out the first words
+					ever to spill from every living beings mouth, "Hellooo Werld!"
+				</p>
+				<code>print("Hellooo Werld!")</code>
+				<p>Forget that machines will ever be humans. Instead, see humans as machines. If your friend was a
+					machine, what is the first things you'd ask of it? You'd ask them to do something, an instruction.
+					So you say, "print whatever it is in the parenthesis." And Python, like all hyper literal human born
+					to obey, will do just that.
+				</p>
+			</article>
+		</section>
+		<section id="Variables" class="main-section">
+			<header class="secondHeaders">Variables</header>
+			<article>
+				<p> What do variables mean? Variables don't mean anything until you give them meaning. When you've
+					automated your friend, it losts all its inherent human understanding. Now you need to explain to it
+					every single letter of a word you're saying, even the spaces between the letters.
+					You can tell your friend to understand x as y, and it will do just that. But for the sake of
+					clarity, let's be practical. Let's tell it that my shoe size is 11. In code, it looks like this:
+				</p>
+				<code>shoe_size = 11</code>
+				<p>Don't expect your mechanical friend to do anything. It does what it's told, and you only gave it an
+					explanation to store in its memory. And it stores things from right to left. In the code above,
+					shoe_size is the variable. The equal sign is an assignment operator. It's not like the equal sign in
+					math. You're not telling your friend that shoe_size is equals to 11. You're telling it to place 11
+					to the variable shoe_size.
+					If you want it to print the shoe size, not the variable, you type:
+				</p>
+				<code>print(shoe_size)</code>
+			</article>
+			<br>
+		</section>
+		<section id="Strings" class="main-section">
+			<header class="secondHeaders">Strings</header>
+			<article>
+				<p>Strings are information that your friend, who's now the most sophisticated calculator, does not
+					calculate. Your friend can calculate numbers. It can subtract, add, and such, but it can't do that
+					with strings.</p>
+				<code>pythonQuote = "Look, you’ve got it all wrong. You don't need to follow me. You don't need to follow anybody. You've got to think for yourselves. You're all individuals."</code>
+				<p>Your friend can't compute the quote in the same way it calculates numbers you give to it. You can
+					change
+					the quote or parts of the quote. The quotation marks indicates to your friend that you're giving it
+					a
+					string. So if you put numbers inside quotation marks and throw it in a variable, it will take it as
+					a string.</p>
+			</article>
+		</section>
+		<section id="Numeric_Manipulation" class="main-section">
+			<header class="secondHeaders">Numeric Manipulation</header>
+			<article>
+				<p>You can ask your friend to divide, add, subtract, multiply, and give only the remainder of a division
+					problem. It follows the
+					PEMDAS order of operation, which it somehow remembered from elementary school and you may have not.
+					As a refresher, PEMDAS stands for Parenthesis, Exponent, Multiplication, Addition, and Subtraction
+					and calculates from left to right.
+					Here is the list of math symbols in code:
+				</p>
+				<ul>
+					<li>
+						<code>** : raises number to a power</code>
+					</li>
+					<li>
+						<code>* : multiply</code>
+					</li>
+					<li>
+						<code>/ : divide</code>
+					</li>
+					<li>
+						<code>+ : addition</code>
+					</li>
+					<li>
+						<code>- : subtraction</code>
+					</li>
+					<li>
+						<code>% : modulus, which only gives the remainder. Use it like in division.</code>
+					</li>
+				</ul>
+				<p>It looks like the following when you code it into Python.</p>
+				<code>x = 2 ** 2 # raises the number to a power of 2 <br> x = x * x # multiples x to x <br> x = x / 2 # divides x by 2 <br> x = x + 2 # adds <br> x = x - 2 # subtracts </code>
+				<p>The pound sign tells our friend that its a comment not to be equated in the code. Play around with
+					it. Use the print command to see the results.</p>
+			</article>
+		</section>
+		<section id="String_Manipulation" class="main-section">
+			<header class="secondHeaders">String Manipulation</header>
+			<article>
+				<p>In this very basic, very introductory guide, my readers will at least distinguish strings from
+					numerical variables. Yes, you can mix both and turn one into the other. The len() function allows
+					Python to count each letter, space, and punctuation in within quotes. We can enumerate the Monty
+					Python quote from above using the len() function.</p>
+				<code>print(len(pythonQuote))</code>
+				<p>You can also index places within the string using a number within brackets within the range of a
+					string. This allows Python to locate the letter starting from a zero count.</p>
+				<code>print(pythonQuote[6])</code>
+				<p>Python can also splice segments of a string using brackets and a colon mark seperating the starting
+					point from the end point.</p>
+				<code>print (pythonQuote[0:4])</code>
+			</article>
+		</section>
+	</main>
+	<!--/document-->
+
+	<!--testing-->
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
